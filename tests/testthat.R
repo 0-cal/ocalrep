@@ -8,5 +8,5 @@ test_that("Check if the files are read into R in the expect format", {
 })
 
 # Test the function make_filename
-test_that("Checkt if the make_filename function works as expected", {
+test_that("Check if the make_filename function works as expected", {
   expect_equal(make_filename(2013), "accident_2013.csv.bz2")})
